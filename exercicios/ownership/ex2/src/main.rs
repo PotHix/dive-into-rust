@@ -1,13 +1,13 @@
-// Faça o código compilar.
-// O compilador tem razão em reclamar do seu código?
+// Make the code compile
+// Is the compiler right to complain about your code?
 fn main() {
-    let mut vetor = vec![1, 3, 2];
-    let mut maior = &vetor[0];
-    for x in &vetor {
-        if x > maior {
-            maior = x;
+    let mut vector = vec![1, 3, 2];
+    let mut biggest = &vector[0];
+    for x in &vector {
+        if x > biggest {
+            biggest = x;
         }
     }
-    vetor.push(maior + 1);
-    println!("O maior é: {}", maior);
+    vector.push(biggest + 1);
+    println!("The biggest one is: {}", biggest);
 }

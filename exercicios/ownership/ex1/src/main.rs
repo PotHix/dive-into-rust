@@ -1,8 +1,8 @@
-// Faça o código compilar.
+// Make the code compile
 fn main() {
-    let vetor = vec![3, 2, 1];
-    for x in vetor {
+    let vector = vec![3, 2, 1];
+    for x in vector {
         println!("{}", x);
     }
-    println!("tamanho de vec0 é {}", vetor.len());
+    println!("The size of vec0 is {}", vector.len());
 }

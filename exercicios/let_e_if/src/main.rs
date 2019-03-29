@@ -1,16 +1,16 @@
-fn main() { 
-    /* pode deixar vazio */
+fn main() {
+    /* you may leave it blank */
 }
 
-/// Um ano bissexto ocorre a cada quatro anos,
-/// exceto em anos múltiplos de 100 que não são múltiplos de 400.
-/// Retorne `true` se `year` é bissexto e `false` caso contrário.
+/// A leap year happens every four years
+/// except in year that are multiple of 100 and not multiple of 400.
+/// Return `true` if `year` is a leap year and `false` otherwise
 fn is_leap_year(year: i32) -> bool {
     false
 }
 
 
-// Testes
+// Tests
 
 #[test]
 fn test_vanilla_leap_year() {

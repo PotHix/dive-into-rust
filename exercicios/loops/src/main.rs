@@ -1,11 +1,11 @@
-fn main() { 
-    /* pode deixar vazio */
+fn main() {
+    /* you can leave it blank*/
 }
 
-/// Dado um número positivo x:
-///     Se x é par, divida x por 2 e repita.
-///     Se x é ímpar, faça x igual a 3x + 1 e repita.
-/// Retorne quantas vezes é necessário repetir o processo até que x = 1.
+/// Given a positive number x:
+///     If x is even, divide it by 2 and repeat
+///     If x is odd, do x equal to 3x + 1 and repeat
+/// Return how many times it's necessary to repeat the process until x = 1
 fn collatz(mut x: u32) -> u32 {
 
 }

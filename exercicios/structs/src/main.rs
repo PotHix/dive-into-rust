@@ -3,18 +3,18 @@ struct Point {
     y: u32,
 }
 
-// Exercicio 1: Defina um struct para representar um retangulo utilizando Point.
+// Exercise 1: Define a struct to represent a rectangle using a `Point`
 
 fn main() {
-    // Cria um ponto.
+    // Creates a point
     let point: Point = Point { x: 3, y: 4 };
 
-    // Acessa campos do ponto.
+    // Access fields of a point
     println!("point coordinates: ({}, {})", point.x, point.y);
 
-    // Exercicio 2: Crie um retangulo.
+    // Exercise 2: build a rectangle
 }
 
-// Exercicio 3: Faça um construtor `new_rect` para criar um retangulo.
+// Exercise 3: Create a constructor `new_rect` that creates a rectangle
 
-// Exercicio 4: Faça um método `rect_area` para calcular a area de um retangulo.
+// Exercise 4: Create a method `rect_area` to calculate an area of a rectangle

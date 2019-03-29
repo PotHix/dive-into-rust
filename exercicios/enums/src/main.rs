@@ -1,29 +1,27 @@
-struct Pessoa {
-    nome: String,
-    estado_civil: Status,
-    escolaridade: Escolaridade    
+struct Person {
+    name: String,
+    marital_status: Status,
+    school_degree: SchoolDegree
 }
 
 enum Status {
-    Solteiro,
-    Separado,
-    Casado(String),
+    Single,
+    Married(String),
 }
 
-// Exercicio 1: Defina o enum escolaridade.
+// Exercise 1: Define SchoolDegree
 
-impl Pessoa {
-    fn conjuge(&self) -> Option<String> {
-        match self.estado_civil {
-            Status::Casado(ref conjuge) => Some(conjuge.clone()),
+impl Person {
+    fn partner(&self) -> Option<String> {
+        match self.marital_status {
+            Status::Married(ref partner) => Some(partner.clone()),
             _ => None
         }
     }
-    
-    // Exercicio 2: Defina um metodo que retorna bool
-    //              indicando se a pessoa possui ensino medio.
+
+    // Exercise 2: Define a method that returns true if the person completed high school
 }
 
 fn main() {
-    // Exercicio 3: Crie uma pessoa casada.
+    // Exercise 3: Build a married person
 }
