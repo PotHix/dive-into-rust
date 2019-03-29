@@ -1,5 +1,5 @@
 // Make the code compile
-// Is the compiler right to to complain about your code?O compilador tem razão em reclamar do seu código?
+// Is the compiler right to to complain about your code?
 fn main() {
     let vetor = vec![1, 2, 3, 4];
     println!("Half of it is: {:?}", half(&vetor));
